@@ -1,0 +1,104 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd; /* Thêm border cho toàn bộ bảng */
+}
+h2{
+    padding-top: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    font-style: initial
+}
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Thêm đường kẻ bên dưới mỗi ô */
+    border-right: 1px solid #ddd; /* Thêm đường kẻ bên phải mỗi ô */
+}
+
+th:last-child,
+td:last-child {
+    border-right: none; /* Loại bỏ đường kẻ bên phải của ô cuối cùng */
+}
+th.id {
+    width: 30px;
+}
+th.date {
+    width: 100px;
+}
+th {
+    text-align: center;
+}
+td{
+    text-align: center;
+}
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 50px;
+}
+
+.toolbar_left {
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#search-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #ff6633;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #f15926;
+}
+
+.toolbar_right {
+    display: flex;
+    align-items: center;
+}
+
+#add-button {
+    padding: 15px 25px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#add-button:hover {
+    background-color: #45a049;
+}
+.btn {
+    width: 100px;
+    height: 40px;
+    border: 3px solid #ff6633;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 250;
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px 10px;
+}
+
+.btn:hover {
+    background: #ff6633;
+    color: white;
+    font-size: 1.5em;
+}
