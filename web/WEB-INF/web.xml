@@ -252,4 +252,44 @@
         <servlet-name>LectureInfo</servlet-name>
         <url-pattern>/lecture/info</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>CreateApplicationController</servlet-name>
+        <servlet-class>controller.CreateApplicationController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateApplicationController</servlet-name>
+        <url-pattern>/student/createApp</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>LoadAppController</servlet-name>
+        <servlet-class>controller.LoadAppController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoadAppController</servlet-name>
+        <url-pattern>/trainDept/loadApp</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ViewContentController</servlet-name>
+        <servlet-class>controller.ViewContentController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewContentController</servlet-name>
+        <url-pattern>/trainDept/viewCon</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ApproveController</servlet-name>
+        <servlet-class>controller.ApproveController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ApproveController</servlet-name>
+        <url-pattern>/trainDept/appCon</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ListAppByStu</servlet-name>
+        <servlet-class>controller.ListAppByStu</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListAppByStu</servlet-name>
+        <url-pattern>/student/listAppByStu</url-pattern>
+    </servlet-mapping>
 </web-app>
